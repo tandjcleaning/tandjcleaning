@@ -1,0 +1,12 @@
+.bgimage {
+  background-image: url('#{$baseurl}/images/carpet.jpg');
+  position: relative;
+  overflow: visible;
+  background-position: top;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
