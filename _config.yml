@@ -10,6 +10,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - octopress-minify-html
+
 sass:
   sass_dir: _sass
   style: compressed
