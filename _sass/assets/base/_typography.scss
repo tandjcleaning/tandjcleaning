@@ -25,9 +25,9 @@ a {
   color: $action-color;
   text-decoration-skip: ink;
   transition: color $base-duration $base-timing;
-
+  text-decoration: none;
   &:hover {
-    color: shade($action-color, 25%);
+    color: #621616;
   }
 
   &:focus {
