@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .card-links {
@@ -11,7 +13,7 @@
   font-size: 1.2em;
 
   &:hover {
-
+    cursor: pointer;
     color: $base-font-color;
     text-decoration: none;
     text-shadow: none;

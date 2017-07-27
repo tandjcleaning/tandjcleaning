@@ -1,7 +1,5 @@
-<header class="bgimage">
-      <div class="bgimagetext"><h1>T and J Cleaning.</h1><br>
-Carpets, Homes, Upholstery, End of tenancy.<br>Commercial and one-off cleaning specialists.<br>
- Contact: 01274 - 975246 /  075050 69275<br>
- email: admin@tandjcleaning.co.uk
-      </div>
-</header>
+{% for nav in site.data.nav %}
+<li{% if nav.url == page.url %} class="active"{% endif %}>
+  <a href="{{ nav.url }}">{{ nav.text }}</a>
+</li>
+{% endfor %}

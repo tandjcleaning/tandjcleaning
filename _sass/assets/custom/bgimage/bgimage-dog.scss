@@ -1,3 +1,6 @@
+$dog-image-hover-opacity: 0.7;
+$dog-image-hover-color: #F8F2B4;
+
 .bgimage-dog {
   background-image: url('#{$baseurl}/images/dog.jpg');
   position: relative;
@@ -9,4 +12,5 @@
   text-align: center;
   padding-top: 1em;
   padding-bottom: 2em;
+
 }
