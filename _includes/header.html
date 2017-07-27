@@ -2,7 +2,7 @@
   <nav class="site-nav">
     {% for nav in site.data.nav %}
   <li{% if nav.url == page.url %} class="active"{% endif %}>
-    <a href="{{ nav.url }}">{{ nav.text }}</a>
+    <a href="{{ nav.url }}" class="site-nav">{{ nav.text }}</a>
   </li>
   {% endfor %}
 </nav>
